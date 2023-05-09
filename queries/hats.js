@@ -19,11 +19,11 @@ const getHatById = async (id) => {
 
 const createHat = async (hat) => {
     try {
-        if (!hat.name) {
-            throw "You must specify a value for name";
+        if (!hat.style) {
+            throw "You must specify a style for Hats";
         }
         const newHat = await db.one(
-            "INSERT INTO hats (style, color, size, is_available, material, price) VALUES ($1, $2, $3, $4, $5, 6) RETURNING *",
+            "INSERT INTO hats (style, color, size, is_available, material, price) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
             [hat.style, hat.color, hat.size, hat.is_available, hat.material, hat.price]
         );
         return newHat;
