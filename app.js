@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const hatsControllers = require("./controllers/hatsControllers");
+const hatsControllers = require("./controllers/hatsController");
 
 //configuration
 const app = express();
