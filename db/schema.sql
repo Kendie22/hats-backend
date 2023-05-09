@@ -9,7 +9,7 @@ CREATE TABLE hats (
    style TEXT NOT NULL, 
    color TEXT NOT NULL, 
    size INTEGER DEFAULT 7, 
-   is_available BOOLEAN DEFAULT true,
+   is_available BOOLEAN DEFAULT TRUE,
    material TEXT NOT NULL,
    price INTEGER 
 
