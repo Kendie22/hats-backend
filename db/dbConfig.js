@@ -8,6 +8,9 @@ const cn = DATABASE_URL
     ? {
         connectingString: DATABASE_URL,
         max: 30,
+        ssl: {
+            rejectUnauthorized: false,
+        }
     }
     : {
         host: process.env.PG_HOST,
@@ -15,6 +18,7 @@ const cn = DATABASE_URL
         database: process.env.PG_DATABASE,
         user: process.env.PG_USER
     };
+console.log(cn)
 
 const db = pgp(cn);
 
