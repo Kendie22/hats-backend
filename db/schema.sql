@@ -12,5 +12,4 @@ CREATE TABLE hats (
    is_available BOOLEAN DEFAULT TRUE,
    material TEXT NOT NULL,
    price INTEGER 
-
 );
