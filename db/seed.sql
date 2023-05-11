@@ -17,7 +17,7 @@ INSERT INTO hats(style, color, size, is_available, material, price, image) VALUE
 ('Newsboys',  'grey', 7, true, 'wool', 45, 'https://m.media-amazon.com/images/I/61dsT3OP0bL._AC_UX679_.jpg' ),
 ('Ascot Caps', 'green', 5, false, 'leather', 200, 'https://m.media-amazon.com/images/I/71KP2X2UpeL._AC_UX679_.jpg'),
 ('Bowler Hats', 'brown', 8, true, 'cotton', 75, 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Bowler_hat%2C_Vienna%2C_mid-20th_century.jpg'),
-('Cowboy Hats', 'brown', 9, true, 'wool', 400, 'https://www.google.com/imgres?imgurl=http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F1643%2F5313%2Fproducts%2Fleather-hat-outback-hats-high-sierra-shapeable-leather-hat-brown-small-28360017150037.jpg%3Fv%3D1628347187&tbnid=s5cmYU7Cp8h9_M&vet=12ahUKEwixzJuY5e3-AhUREGIAHV5FBhcQMygHegUIARDSAw..i&imgrefurl=https%3A%2F%2Fconnerhats.com%2Fproducts%2Fhigh-sierra-shapeable-leather-hat&docid=ukLexrM2vk9o_M&w=900&h=900&q=cowboy%20hat&hl=en&ved=2ahUKEwixzJuY5e3-AhUREGIAHV5FBhcQMygHegUIARDSAw'),
+('Cowboy Hats', 'brown', 9, true, 'wool', 400, 'https://d1yvdgbmeqok5q.cloudfront.net/prod/dw/img/thm_banners/096M64_Y3_P1.jpg'),
 ('Breton Hats', 'brown', 8, true, 'cotton', 75, 'https://m.media-amazon.com/images/I/71vTjHAi8gL._AC_UX679_.jpg'),
 ('Army Hats', 'green', 5, false, 'hard plastic', 200,'https://m.media-amazon.com/images/I/71aRin-7SKL._AC_UX679_.jpg' ),
 ('Pillboxes', 'black', 7, true, 'wool', 20, 'https://i.etsystatic.com/6265193/r/il/c740a5/2612111139/il_1588xN.2612111139_70w7.jpg'),
