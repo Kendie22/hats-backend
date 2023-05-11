@@ -7,10 +7,7 @@ const { DATABASE_URL } = process.env;
 const cn = DATABASE_URL
     ? {
         connectingString: DATABASE_URL,
-        max: 30,
-        ssl: {
-            rejectUnauthorized: false,
-        }
+        max: 30
     }
     : {
         host: process.env.PG_HOST,
