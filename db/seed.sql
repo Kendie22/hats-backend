@@ -17,7 +17,7 @@ INSERT INTO hats(style, color, size, is_available, material, price, image) VALUE
 ('Newsboys',  'grey', 7, true, 'wool', 45, 'https://m.media-amazon.com/images/I/61dsT3OP0bL._AC_UX679_.jpg' ),
 ('Ascot Caps', 'green', 5, false, 'leather', 200, 'https://m.media-amazon.com/images/I/71KP2X2UpeL._AC_UX679_.jpg'),
 ('Bowler Hats', 'brown', 8, true, 'cotton', 75, 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Bowler_hat%2C_Vienna%2C_mid-20th_century.jpg'),
-('Cowboy Hats', 'brown', 9, true, 'wool', 400, 'https://d1yvdgbmeqok5q.cloudfront.net/prod/dw/img/thm_banners/096M64_Y3_P1.jpg'),
+('Cowboy Hats', 'brown', 9, true, 'wool', 400, 'https://m.media-amazon.com/images/I/813LNR66wRL._AC_UX679_.jpg'),
 ('Breton Hats', 'brown', 8, true, 'cotton', 75, 'https://m.media-amazon.com/images/I/71vTjHAi8gL._AC_UX679_.jpg'),
 ('Army Hats', 'green', 5, false, 'hard plastic', 200,'https://m.media-amazon.com/images/I/71aRin-7SKL._AC_UX679_.jpg' ),
 ('Pillboxes', 'black', 7, true, 'wool', 20, 'https://i.etsystatic.com/6265193/r/il/c740a5/2612111139/il_1588xN.2612111139_70w7.jpg'),
