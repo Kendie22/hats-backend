@@ -11,5 +11,6 @@ CREATE TABLE hats (
    size INTEGER DEFAULT 7, 
    is_available BOOLEAN DEFAULT TRUE,
    material TEXT NOT NULL,
-   price INTEGER 
+   price INTEGER, 
+   image TEXT
 );
