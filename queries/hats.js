@@ -23,8 +23,8 @@ const createHat = async (hat) => {
             throw "You must specify a style for Hats";
         }
         const newHat = await db.one(
-            "INSERT INTO hats (style, color, size, is_available, material, price) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
-            [hat.style, hat.color, hat.size, hat.is_available, hat.material, hat.price]
+            "INSERT INTO hats (style, color, size, is_available, material, price, image) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+            [hat.style, hat.color, hat.size, hat.is_available, hat.material, hat.price, hat.image]
         );
         return newHat;
     } catch (error) {
@@ -35,8 +35,8 @@ const createHat = async (hat) => {
 const updateHat = async (id, hat) => {
     try {
         const updatedHat = await db.one(
-            "UPDATE hats SET style = $1, color = $2, size = $3, is_available = $4, material = $5, price = $6 WHERE id = $7 RETURNING *",
-            [hat.style, hat.color, hat.size, hat.is_available, hat.material, hat.price, id]
+            "UPDATE hats SET style = $1, color = $2, size = $3, is_available = $4, material = $5, price = $6, image = $7 WHERE id = $8 RETURNING *",
+            [hat.style, hat.color, hat.size, hat.is_available, hat.material, hat.price, hat.image, id]
         );
         return updatedHat;
     } catch (error) {
