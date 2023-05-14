@@ -6,7 +6,7 @@ const { DATABASE_URL } = process.env;
 
 const cn = DATABASE_URL
     ? {
-        connectingString: DATABASE_URL,
+        connectionString: DATABASE_URL,
         max: 30
     }
     : {
